@@ -2,6 +2,12 @@
 # Guitar chords classification with PyTorch
 
 
+
+https://user-images.githubusercontent.com/52721589/204930721-1e17f6be-b517-4d13-a22e-488a539eb27e.mp4
+
+
+
+
 <br>
 Used dataset: homemade images (5.000+)
 <br>
