@@ -1,11 +1,22 @@
 from datasets.chords_dataset import ChordsDataset
-from datasets.data import merged_dataset, classes
+from datasets.data import merged_dataset, classes, class_contents
 
 from torch.utils.data import DataLoader
 from torchvision.utils import make_grid
 import torchvision.transforms as transforms
 
 import matplotlib.pyplot as plt
+
+
+def plot_classes(class_contents):
+    # Visualize the dataset classes
+    plt.figure(figsize=(12,9))
+
+    plt.bar(range(len(class_contents)), list(class_contents.values()), align='center', tick_label=list(class_contents.keys()))
+    plt.tick_params(labelsize=14)
+    plt.title('Distribution of input images', size=24)
+    plt.xlabel('Chords', size=16)
+    plt.ylabel('No. chords', size=16)
 
 
 def show_samples(dataset=merged_dataset, classes=classes):
