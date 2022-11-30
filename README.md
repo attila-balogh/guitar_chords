@@ -1,6 +1,9 @@
 
 # Guitar chords classification with PyTorch
 
+<video src='https://www.youtube.com/watch?v=13HdOq_8tmk' width=180/>
+
+
 <br>
 Used dataset: homemade images (5.000+)
 <br>
@@ -8,7 +11,6 @@ Used dataset: homemade images (5.000+)
 Time of training (with validation phases) 1h 23m 45s.
 <br>
 <br>
-
 
 <img src= "utils/loss.png">
 <br>
