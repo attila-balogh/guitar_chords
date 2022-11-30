@@ -1,8 +1,6 @@
 
 # Guitar chords classification with PyTorch
 
-<video src='https://www.youtube.com/watch?v=13HdOq_8tmk' width=180/>
-
 
 <br>
 Used dataset: homemade images (5.000+)
