@@ -1,4 +1,32 @@
 
+# Guitar chords classification with PyTorch
+
+<br>
+Used dataset: homemade images (5.000+)
+<br>
+<br>
+Time of training (with validation phases) 1h 23m 45s.
+<br>
+<br>
+
+
+<img src= "utils/loss.png">
+<br>
+<img src= "utils/acc.png">
+<br>
+<img src= "utils/lr.png">
+<br>
+<img src= "utils/test_cm.png">
+Confusion matrix was created from the predictions on the TEST set
+<br>
+<br>
+<br>
+
+### Training details:
+<br>
+
+
+
 Total parameters: 			      8,910,671<br>
 Total trainable parameters: 	8,910,671<br>
 <br>
